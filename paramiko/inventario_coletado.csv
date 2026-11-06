@@ -1,4 +1,4 @@
 nome,usuario,hostname,kernel,uptime,status
-R1,r1,par391892b,6.18.33.2-microsoft-standard-WSL2,"up 1 hour, 36 minutes",OK
-R2,r2,par391892b,6.18.33.2-microsoft-standard-WSL2,"up 1 hour, 36 minutes",OK
-R3,r3,par391892b,6.18.33.2-microsoft-standard-WSL2,"up 1 hour, 36 minutes",OK
+R1,r1,par391892b,6.18.33.2-microsoft-standard-WSL2,"up 1 hour, 55 minutes",OK
+R2,r2,par391892b,6.18.33.2-microsoft-standard-WSL2,"up 1 hour, 55 minutes",OK
+R3,r3,par391892b,6.18.33.2-microsoft-standard-WSL2,"up 1 hour, 55 minutes",OK
