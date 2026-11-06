@@ -1,0 +1,31 @@
+=== Diagnóstico em Thu Sep 24 21:05:58 -03 2026 ===
+--- Uso de disco ---
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.9G     0  3.9G   0% /usr/lib/modules/6.18.33.2-microsoft-standard-WSL2
+none            3.9G  4.0K  3.9G   1% /mnt/wsl
+drivers         238G  105G  133G  45% /usr/lib/wsl/drivers
+/dev/sdd       1007G  1.3G  955G   1% /
+none            3.9G   36K  3.9G   1% /mnt/wslg
+none            3.9G     0  3.9G   0% /usr/lib/wsl/lib
+rootfs          3.9G  2.8M  3.9G   1% /init
+none            3.9G  488K  3.9G   1% /run
+none            3.9G     0  3.9G   0% /run/lock
+none            3.9G     0  3.9G   0% /run/shm
+none            3.9G   80K  3.9G   1% /mnt/wslg/versions.txt
+none            3.9G   80K  3.9G   1% /mnt/wslg/doc
+C:\             238G  105G  133G  45% /mnt/c
+D:\             932G  153G  780G  17% /mnt/d
+none            1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs           3.9G     0  3.9G   0% /tmp
+none            1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+none            1.0M     0  1.0M   0% /run/credentials/getty@tty1.service
+tmpfs           788M   12K  788M   1% /run/user/1000
+--- Processos ativos (top 5 por memória) ---
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         263  0.0  0.4 123456 32416 ?        Ssl  19:32   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         206  0.0  0.3  44092 29704 ?        Ss   19:32   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root          59  0.0  0.2  50420 16748 ?        S<s  19:32   0:00 /usr/lib/systemd/systemd-journald
+root           1  0.0  0.1  24212 15480 ?        Ss   19:32   0:01 /sbin/init
+root        2365  0.8  0.1 1792044 15208 ?       Ssl  21:05   0:00 /usr/libexec/wsl-pro-service
+--- Tempo ativo ---
+ 21:05:58 up  1:33,  1 user,  load average: 0.02, 0.02, 0.00
